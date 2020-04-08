@@ -203,7 +203,7 @@ The reason being is that UsbInjectAll reimplements builtin macOS functionality w
    * Hides the EFI partition as a boot option in OC's boot picker
 * **ConsoleAttributes**: `0`
    * Sets OpenCore's UI color, won't be covered here but see 8.3.8 of [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) for more info
-* **PickerAttributes**: `0`
+* **ConsoleAttributes**: `0`
    * Used for setting custom picker attributes, won't be covered here but see 8.3.8 of [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) for more info
 * **PickerAudioAssist**: NO
    * Used for enabling VoiceOver like support in the picker, unless you want your hack talking to you keep this disabled
